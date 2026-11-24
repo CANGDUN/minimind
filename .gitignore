@@ -4,3 +4,14 @@ __pycache__/
 out
 website/
 docs-minimind/
+
+# local environment
+.venv/
+mise.local.toml
+.env
+
+# training artifacts / downloaded data
+checkpoints/
+dataset/*.jsonl
+swanlog/
+wandb/
